@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(223, 217, 217);
+}
+#contenedor{
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    margin: 100px auto 0px auto;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap:40px;
+    box-shadow: 10px 5px 5px rgb(141, 140, 140);
+    
+}
+
+.contenedor1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:5px;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#oculto2{
+    color: red;
+    font-size: 8px;
+}
+#oculto3{
+    color: red;
+    font-size: 8px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio con tiempo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form onsubmit = "enviarMensaje(event)";>
+        <div id="contenedor">
+            <div id="contenedor-mail" class="contenedor1">
+                <label name="mail">Inserte su email</label>
+                <input id="mail" type="email" required placeholder="Introduce su email" pattern=" /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/">
+                <span id="oculto1"></span>
+            </div>
+
+            <div id="contenedor-contraseña" class="contenedor1">
+                <label name="contraseña">Inserte su contraseña</label>
+                <input id="contraseña" type="password" required placeholder="Introduce su contraseña">
+                <span id="oculto2"></span>
+            </div>
+
+            <div id="contenedor-repetir_contraseña" class="contenedor1">
+                <label name="contraseña">Repita su contraseña</label>
+                <input id="contraseñaRep" type="password" required placeholder="Repita su contraseña">
+                <span id="oculto3"></span>
+            </div>
+            <button onclick="comprobarFormulario()">Enviar</button>
+
+        </div>
+
+
+
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
